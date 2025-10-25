@@ -1,7 +1,7 @@
 #include <physical_layouts.dtsi>
 
 / {
-    default_transform: matrix_transform0 {
+    matrix_transform0: matrix_transform0 {
         compatible = "zmk,matrix-transform";
         columns = <5>;
         rows = <7>;
