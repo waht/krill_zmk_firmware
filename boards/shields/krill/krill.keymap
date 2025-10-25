@@ -192,7 +192,7 @@
     &lt NAV Q    &kp W        &kp F        &kp P        &kp B                         &kp J   &kp L        &kp U        &kp Y          &kp SEMI
     &kp A        &hml LSHFT R &hml LALT S  &hml LCTRL T &kp G                         &kp M   &hmr RCTRL N &hm RALT E   &hmr RSHFT I   &hmr RGUI O
     &hm LSHFT Z  &lt FUN X    &kp C        &kp D        &kp V                         &kp K   &kp H        &kp COMMA    &hm RSHFT DOT  
-                &bootloader  &lt NUM_SYM SPACE &kp BSPC     &lt NAW RET &lt FUN FSLH
+                &bootloader  &lt NUM_SYM SPACE &kp BSPC     &lt NAV RET &lt FUN FSLH
             >;
         };
         
