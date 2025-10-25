@@ -1,0 +1,10 @@
+file_format: "1"
+id: krill
+name: krill
+type: shield
+url: https://github.com/waht/krill/
+requires: [pro_micro]
+exposes: []
+features:
+  - keys
+  - encoder

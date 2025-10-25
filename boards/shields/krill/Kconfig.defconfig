@@ -1,0 +1,6 @@
+if SHIELD_KRILL
+
+config ZMK_KEYBOARD_NAME
+  default "krill"
+
+endif
