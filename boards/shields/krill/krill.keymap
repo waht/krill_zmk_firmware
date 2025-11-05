@@ -194,6 +194,7 @@
     &hm LSHFT Z  &lt FUN X    &kp C        &kp D        &kp V                         &kp K   &kp H        &kp COMMA    &hm RSHFT DOT  
                 &bootloader  &lt NUM_SYM SPACE &kp BSPC     &lt NAV RET &lt FUN FSLH
             >;
+            sensor-bindings = <&inc_dec_kp L R>;
         };
         
         num_sym {
