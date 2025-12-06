@@ -180,7 +180,7 @@
     &hm LSHFT Z  &lt FUN X    &kp C        &kp V        &kp B      &lt FUN N   &kp M        &kp COMMA    &hmr RSHFT DOT 
                 &bootloader  &lt NUM_SYM SPACE &kp BSPC     &lt NAV RET &lt FUN FSLH
             >;
-            sensor-bindings = <&inc_dec_kp BSPC DEL>;
+            sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
         };
 
         colemak_layer {
@@ -204,6 +204,7 @@
     &kp BSLH      &trans           &kp LBKT      &kp RBKT       &kp UNDER            &kp PLUS  &kp MINUS      &trans        &trans          
                 &trans      &trans             &trans   &trans &trans  
             >;
+            sensor-bindings = <&inc_dec_kp BSPC DEL>;
         };
         
         fun {
