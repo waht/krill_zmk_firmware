@@ -180,6 +180,7 @@
     &hm LSHFT Z  &lt FUN X    &kp C        &kp V        &kp B      &lt FUN N   &kp M        &kp COMMA    &hmr RSHFT DOT 
                 &bootloader  &lt NUM_SYM SPACE &kp BSPC     &lt NAV RET &lt FUN FSLH
             >;
+            sensor-bindings = <&inc_dec_kp BSPC DEL>;
         };
 
         colemak_layer {
@@ -194,7 +195,6 @@
     &hm LSHFT Z  &lt FUN X    &kp C        &kp D        &kp V                         &kp K   &kp H        &kp COMMA    &hm RSHFT DOT  
                 &bootloader  &lt NUM_SYM SPACE &kp BSPC     &lt NAV RET &lt FUN FSLH
             >;
-            sensor-bindings = <&inc_dec_kp L R>;
         };
         
         num_sym {
@@ -222,6 +222,7 @@
     &mo BT   &tog COLEMAK          &none       &none        &none               &kp HOME     &kp END   &kp PG_UP     &kp PG_DN
       &trans   &trans    &trans      &trans       &trans      
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_DOWN C_VOL_UP>;
         };
  
         bt {
@@ -231,6 +232,7 @@
     &none        &studio_unlock  &none  &none        &none                &rgb_ug RGB_EFF  &rgb_ug RGB_EFR &rgb_ug RGB_SPI &rgb_ug RGB_SPD
       &bootloader  &sys_reset       &none        &none        &none         
             >;
+            sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP>;
         };
 
     };
