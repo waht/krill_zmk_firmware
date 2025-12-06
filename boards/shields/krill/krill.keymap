@@ -222,7 +222,7 @@
     &mo BT   &tog COLEMAK          &none       &none        &none               &kp HOME     &kp END   &kp PG_UP     &kp PG_DN
       &trans   &trans    &trans      &trans       &trans      
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_DOWN C_VOL_UP>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
  
         bt {
